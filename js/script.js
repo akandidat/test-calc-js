@@ -295,6 +295,7 @@ function saveResult() {
     currentResults.push(resultHTML);
     localStorage.setItem("savedResults", JSON.stringify(currentResults));
     countResults();
+    clear();
 }
 let resultCart = document.querySelector('.cart')
 if (resultCart) {
